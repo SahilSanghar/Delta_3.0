@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+</head>
+<body>
+    <h1>HTML Practice Assignment</h1>
+    <h2>Q1</h2>
+<table border="black">
+        <caption>Student Informaion</caption>
+
+    <tr>
+        <th rowspan="6">Info</th>
+        <th rowspan="2">Name</th>
+        <th colspan="2">Address</th>
+    </tr>    
+    <tr>
+        <th>City</th>
+        <th>House</th>
+    </tr>
+    <tr>
+        <td>A</td>
+        <td>Delhi</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>B</td>
+        <td>Mumbai</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>C</td>
+        <td>Kolkata</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>D</td>
+        <td>Pune</td>
+        <td>4</td>
+    </tr>    
+</table>
+
+<h2>Q2</h2>
+  <form action="/action">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name">
+    <br><br>
+    Sex:
+    <input type="radio" name="sex" id="male" value="male">
+      <label for="male">Male</label>
+    <input type="radio" name="sex" id="female" value="female">
+      <label for="female">Female</label>
+    <br><br>
+   <label for="Country">Country:</label>
+   <select name="Country" id="Country">
+      <option>Select an option</option>
+      <option value="IND">India</option>
+      <option value="USA">America</option>
+      <option value="Eu">Europe</option>
+   </select>
+   <br><br>
+   <label for="Message">Message</label>
+   <br>
+   <textarea id="Message" cols="30" rows="4"></textarea>
+   <br><br>
+   <input type="checkbox" name="sub" id="subscribe">
+   <label for="subscribe">Subscribe?</label>
+   <br><br>
+   <button>Submit</button>
+  </form>
+  <h1>Q3</h1>
+  <form action="/action">
+    <h2>Feedback Form</h2>
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name" placeholder="write your name">
+    <br>
+    <label for="email">Email:</label>
+    <input type="text" name="Email" id="Email" placeholder="write your email">
+  <br>
+  <label for="Message">Message</label>
+  <br>
+  <textarea id="Message" cols="30" rows="4"></textarea>
+  <br>
+  <label for="rating">Rate us uot of 5:</label>
+  <br>
+  <input type="radio" name="rating" id="one" value="one">
+  <label for="one">1</label>
+  <br>
+  <input type="radio" name="rating" id="two" value="two">
+  <label for="two">2</label>
+  <br>
+  <input type="radio" name="rating" id="three" value="three">
+  <label for="three">3</label>
+  <br>
+  <input type="radio" name="rating" id="four" value="four">
+  <label for="four">4</label>
+  <br>
+  <input type="radio" name="rating" id="five" value="five">
+  <label for="five">5</label>
+  <br>
+  <button>Send your Message!</button>
+  </form>
+</body>
+</html>

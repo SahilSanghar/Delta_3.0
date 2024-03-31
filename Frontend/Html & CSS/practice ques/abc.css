@@ -1,0 +1,56 @@
+/*body{
+    color: #A52A2A;
+    text-align: center;
+    font-family: 'Georgia';
+}
+span {
+    text-decoration: underline;
+}
+h3 {
+    color: black;
+}
+p {
+    color: red;
+    line-height: 30px;
+}
+a {
+    color: rgb(0,255, 0);
+    text-decoration: none;
+}
+button {
+    color: blueviolet;
+    background-color: white;
+}
+
+textarea {
+    color: black;
+}
+My version of assignment*/
+p {
+    color:brown;
+    text-align:center;
+    line-height:30px;
+}
+h1 {
+    text-align:center;
+    color:red;
+    font-family:Georgia;
+}
+h3 {
+    text-align:center;
+    color:black;
+}
+a {
+    text-decoration:none;
+    color:green;
+}
+button {
+    background-color:white;
+    color:blueviolet;
+}
+textarea {
+    color:black;
+}
+span {
+    text-decoration:underline;
+}

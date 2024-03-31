@@ -1,0 +1,30 @@
+.face {
+    height: 400px;
+    width: 400px;
+    background-color: goldenrod;
+    border-radius: 50%;
+}
+.mouth {
+    height: 60px;
+    width: 200px;
+    background-color: mediumvioletred;
+    border-radius: 0 0 50px 50px;
+    position: absolute;
+    top: 280px;
+    left: 100px;
+    transition-duration: 1s;
+}
+.eyes {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 40px;
+    position: relative;
+    top: 100px;
+    left: 60px;
+}
+.mouth:hover {
+    height: 80px;
+}

@@ -1,0 +1,27 @@
+
+.one {
+    height: 180px;
+    width: 150px;
+    /* bottom: -50px; */
+    border: 2px solid black;
+    background-color: cyan;
+    position: relative;
+    z-index: 2;
+}
+
+.two {
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    background-color: lightsalmon;
+    position: relative;
+    z-index: 3;
+}
+
+.three {
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    background-color: lightslategray;
+    position: relative;
+}

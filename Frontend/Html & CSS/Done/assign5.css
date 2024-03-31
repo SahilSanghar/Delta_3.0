@@ -1,0 +1,48 @@
+/*Question 1*/
+h1 {
+    text-align: right 30px ;
+}
+.container {
+    height: 400px;
+    width: 400px;
+    border: 2px solid cyan;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.inner {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: gray;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+
+/*Question 2*/
+
+.nav {
+   height: 50px;
+   width: 900px;
+   background-color: pink;
+   color: black;
+   border: 2px solid cyan;
+   border-radius: 10px;
+   display: flex;
+   justify-content: flex-start;
+   align-content: center;
+}
+
+.content {
+    height: 50px;
+    width: 80px;
+    display: flex;
+    margin-left: 5px;
+    font-size: 24px;
+    border-radius: 10px;
+    line-height: 50px;
+}
